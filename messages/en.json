@@ -1,0 +1,197 @@
+{
+  "header": {
+    "brand": "LMS Platform",
+    "services": "Services",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Request a demo"
+  },
+  "hero": {
+    "eyebrow": "Modern LMS for schools & institutes",
+    "title": "A fast, modern learning experience for students — with full control for schools",
+    "subtitle": "Managers get clarity, teachers save time, students stay motivated, and parents stay informed — all in one platform, built for the Iranian market.",
+    "primaryCta": "Get a consultation",
+    "secondaryCta": "See pricing",
+    "stat1": { "value": "1 Platform", "label": "for everyone" },
+    "stat2": { "value": "RTL ready", "label": "Persian-first" },
+    "stat3": { "value": "AI-ready", "label": "next step features" },
+    "mock": {
+      "title": "Your school dashboard",
+      "desc": "Attendance, content, exams, analytics, parent reports, and classroom tools.",
+      "tiles": {
+        "managers": "Managers: reports & control",
+        "teachers": "Teachers: classes & content",
+        "students": "Students: gamified learning",
+        "parents": "Parents: progress tracking"
+      },
+      "highlightTitle": "Built for engagement",
+      "highlightDesc": "Gamification + clear feedback loops keep students active."
+    },
+    "badges": {
+      "ai": "AI add-ons",
+      "gamification": "Gamification",
+      "analytics": "Smart analytics",
+      "whiteboard": "Class whiteboard"
+    }
+  },
+  "services": {
+    "eyebrow": "What you get",
+    "title": "Everything a modern school needs",
+    "description": "A complete system for management, teaching, learning, and parent visibility.",
+    "management": {
+      "title": "School management",
+      "desc": "Centralize operations with permissions, roles, scheduling, and approvals.",
+      "bullets": ["Roles & access", "Academic calendar", "Centralized settings"]
+    },
+    "teaching": {
+      "title": "Teacher workspace",
+      "desc": "Create content, run classes, assign homework, and track progress easily.",
+      "bullets": ["Content builder", "Assignments", "Attendance & grading"]
+    },
+    "learning": {
+      "title": "Student learning",
+      "desc": "Engaging learning with gamification and personalized pathways.",
+      "bullets": ["Points & badges", "Quizzes & practice", "Learning paths"]
+    },
+    "parents": {
+      "title": "Parent visibility",
+      "desc": "Clear progress reports and important notifications in simple language.",
+      "bullets": ["Weekly progress", "Messages", "Score & attendance"]
+    },
+    "communication": {
+      "title": "Communication",
+      "desc": "Announcements, messaging, reminders, and class updates in one place.",
+      "bullets": ["Broadcasts", "Targeted messages", "Reminders"]
+    },
+    "reports": {
+      "title": "Analytics & reports",
+      "desc": "Data-driven insights for managers and teachers to reduce learning loss.",
+      "bullets": [
+        "Drop-off insights",
+        "Class comparisons",
+        "Exportable reports"
+      ]
+    }
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Flexible plans for schools of any size",
+    "description": "Start small, scale with confidence. Enterprise options available.",
+    "featured": "Most popular",
+    "starter": {
+      "name": "Starter",
+      "tagline": "For small institutes getting started",
+      "price": "From 0",
+      "period": "Trial / pilot",
+      "features": [
+        "Core LMS",
+        "Basic reporting",
+        "Teacher tools",
+        "Support via ticket"
+      ],
+      "cta": "Start trial"
+    },
+    "pro": {
+      "name": "Professional",
+      "tagline": "For growing schools with multiple classes",
+      "price": "Custom",
+      "period": "Monthly / yearly",
+      "features": [
+        "Advanced reporting",
+        "Parent portal",
+        "Gamification",
+        "Priority support"
+      ],
+      "cta": "Talk to sales"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "For chains, large schools, and organizations",
+      "price": "Contract",
+      "period": "Yearly",
+      "features": ["Multi-branch", "SLA", "API access", "Dedicated onboarding"],
+      "cta": "Request proposal"
+    },
+    "note": "Pricing is indicative. Final pricing depends on students, features, and deployment type."
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "description": "If you need more info, contact us and we’ll respond quickly.",
+    "items": [
+      {
+        "q": "Does it support RTL Persian?",
+        "a": "Yes — Persian-first with full RTL support and clean typography."
+      },
+      {
+        "q": "Can parents see progress?",
+        "a": "Yes — parents can view attendance, performance trends, and teacher notes."
+      },
+      {
+        "q": "Do you provide onboarding for schools?",
+        "a": "We offer guided onboarding, templates, and staff training materials."
+      },
+      {
+        "q": "Can we add AI features later?",
+        "a": "Yes — AI modules are optional add-ons and can be enabled when ready."
+      },
+      {
+        "q": "Is it mobile-friendly?",
+        "a": "Yes — the platform is responsive and works smoothly on phones and tablets."
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "About us",
+    "title": "Built for real schools — not generic software",
+    "description": "We focus on usability, speed, and engagement for Iranian education workflows.",
+    "cards": [
+      {
+        "title": "Local-first UX",
+        "desc": "Designed for Persian content, RTL layouts, and local needs."
+      },
+      {
+        "title": "Engagement loops",
+        "desc": "Gamification, feedback, and clarity for students and parents."
+      },
+      {
+        "title": "Scalable platform",
+        "desc": "Start with a pilot and scale to branches and large organizations."
+      }
+    ],
+    "mission": {
+      "title": "Our mission",
+      "desc": "Modernize education workflows so teachers teach better, students learn better, and managers make smarter decisions."
+    }
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Let’s set up a demo for your school",
+    "description": "Tell us about your school or institute. We’ll recommend the best rollout plan.",
+    "boxTitle": "Contact information",
+    "boxDesc": "Prefer email or phone? We respond quickly during business hours.",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "form": {
+      "name": "Name",
+      "namePh": "Your full name",
+      "org": "School / Institute",
+      "orgPh": "e.g. Example School",
+      "message": "Message",
+      "messagePh": "Tell us number of students, goals, and current tools…",
+      "submit": "Send request",
+      "sent": "Sent! We’ll reach out soon.",
+      "note": "By sending, you agree to be contacted about this request."
+    }
+  },
+  "footer": {
+    "brand": "LMS Platform",
+    "rights": "All rights reserved.",
+    "services": "Services",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "contact": "Contact"
+  }
+}
