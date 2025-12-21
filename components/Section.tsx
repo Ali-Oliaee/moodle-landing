@@ -1,3 +1,5 @@
+import Container from "./Container"
+
 export default function Section({
   id,
   eyebrow,
@@ -13,7 +15,7 @@ export default function Section({
 }) {
   return (
     <section id={id} className="py-16 sm:py-20">
-      <div className="container">
+      <Container>
         <div className="max-w-2xl">
           {eyebrow ? (
             <p className="text-sm font-medium text-blue-600">{eyebrow}</p>
@@ -27,7 +29,7 @@ export default function Section({
         </div>
 
         <div className="mt-10">{children}</div>
-      </div>
+      </Container>
     </section>
   )
 }

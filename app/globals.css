@@ -10,6 +10,9 @@ body {
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-white text-zinc-900 antialiased;
   }

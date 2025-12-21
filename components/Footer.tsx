@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-zinc-100 py-10">
       <div className="container flex flex-col sm:flex-row gap-4 sm:items-center sm:justify-between">
-        <p className="text-sm text-zinc-600">
+        <p className="text-sm text-zinc-600 px-4">
           © {new Date().getFullYear()} {t("brand")}. {t("rights")}
         </p>
 

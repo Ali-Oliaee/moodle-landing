@@ -1,8 +1,8 @@
-import "../globals.css"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages } from "next-intl/server"
 import type { Metadata } from "next"
 import { isRtl, type Locale, locales } from "@/i18n/locales"
+import "../globals.css"
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com"
 

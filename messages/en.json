@@ -1,40 +1,71 @@
 {
   "header": {
-    "brand": "LMS Platform",
-    "services": "Services",
-    "pricing": "Pricing",
+    "brand": "Leana",
+    "tagline": "Smart LMS for schools & institutes",
+    "features": "Features",
+    "plans": "Plans",
     "faq": "FAQ",
     "about": "About",
-    "contact": "Contact",
     "cta": "Request a demo"
   },
   "hero": {
-    "eyebrow": "Modern LMS for schools & institutes",
-    "title": "A fast, modern learning experience for students — with full control for schools",
-    "subtitle": "Managers get clarity, teachers save time, students stay motivated, and parents stay informed — all in one platform, built for the Iranian market.",
-    "primaryCta": "Get a consultation",
-    "secondaryCta": "See pricing",
-    "stat1": { "value": "1 Platform", "label": "for everyone" },
-    "stat2": { "value": "RTL ready", "label": "Persian-first" },
-    "stat3": { "value": "AI-ready", "label": "next step features" },
-    "mock": {
-      "title": "Your school dashboard",
-      "desc": "Attendance, content, exams, analytics, parent reports, and classroom tools.",
-      "tiles": {
-        "managers": "Managers: reports & control",
-        "teachers": "Teachers: classes & content",
-        "students": "Students: gamified learning",
-        "parents": "Parents: progress tracking"
+    "eyebrow": "Built for Iranian schools & institutes",
+    "badge": "Leana (لینا) — Persian-first LMS",
+    "title": "One platform for managers, teachers, students, and parents",
+    "subtitle": "Leana modernizes learning with fast workflows, clean reporting, and engagement tools like gamification and AI-ready modules — designed for real school operations.",
+    "primaryCta": "Request a demo",
+    "secondaryCta": "Explore features",
+
+    "quick": [
+      {
+        "title": "Manager control",
+        "desc": "Roles, approvals, scheduling, and performance visibility."
       },
-      "highlightTitle": "Built for engagement",
-      "highlightDesc": "Gamification + clear feedback loops keep students active."
+      {
+        "title": "Teacher speed",
+        "desc": "Content, quizzes, attendance, grading — in fewer clicks."
+      },
+      {
+        "title": "Student engagement",
+        "desc": "Gamification, feedback loops, and clearer learning paths."
+      }
+    ],
+
+    "proof": {
+      "title": "Designed for engagement + accountability",
+      "desc": "Managers see the big picture, teachers get tools that save time, and parents stay informed without noise.",
+      "note": "Local-first UX"
     },
+
+    "stat1": { "value": "RTL", "label": "Persian-ready UI" },
+    "stat2": { "value": "All roles", "label": "One login system" },
+    "stat3": { "value": "AI-ready", "label": "Optional add-ons" },
+
+    "preview": {
+      "caption": "Preview",
+      "title": "School dashboard",
+      "desc": "Attendance, content, exams, messaging, and reports — unified.",
+      "pill": "Fast setup",
+      "tiles": {
+        "managers": { "label": "Managers", "value": "Reports & control" },
+        "teachers": { "label": "Teachers", "value": "Classes & content" },
+        "students": { "label": "Students", "value": "Practice & points" },
+        "parents": { "label": "Parents", "value": "Progress tracking" }
+      },
+      "highlightTitle": "Make learning visible",
+      "highlightDesc": "Leana turns daily activity into actionable insights — so you can reduce learning loss and increase consistency.",
+      "ctaPrimary": "Talk to sales",
+      "ctaSecondary": "See plans"
+    },
+
     "badges": {
-      "ai": "AI add-ons",
+      "ai": "AI modules",
       "gamification": "Gamification",
-      "analytics": "Smart analytics",
-      "whiteboard": "Class whiteboard"
-    }
+      "analytics": "Analytics",
+      "whiteboard": "Whiteboard"
+    },
+
+    "footnote": "Works great on mobile, tablet, and desktop."
   },
   "services": {
     "eyebrow": "What you get",
