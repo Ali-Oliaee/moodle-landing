@@ -1,8 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { useTranslations } from "next-intl"
 import Section from "./Section"
+import { t, tArray } from "@/lib/translations"
 
 function Item({ q, a }: { q: string; a: string }) {
   const [open, setOpen] = useState(false)
@@ -27,18 +27,18 @@ function Item({ q, a }: { q: string; a: string }) {
 }
 
 export default function FAQ() {
-  const t = useTranslations("faq")
+  const items = tArray("faq.items")
 
   return (
     <Section
       id="faq"
-      eyebrow={t("eyebrow")}
-      title={t("title")}
-      description={t("description")}
+      eyebrow={t("faq.eyebrow")}
+      title={t("faq.title")}
+      description={t("faq.description")}
     >
       <div className="grid gap-3 max-w-3xl">
-        {[0, 1, 2, 3, 4].map((i) => (
-          <Item key={i} q={t(`items.${i}.q`)} a={t(`items.${i}.a`)} />
+        {items.map((item: any, i: number) => (
+          <Item key={i} q={item.q} a={item.a} />
         ))}
       </div>
     </Section>

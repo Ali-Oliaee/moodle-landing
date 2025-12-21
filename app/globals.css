@@ -88,6 +88,7 @@ body {
     );
     transform: translateX(-30%);
     animation: shineSweep 3.8s ease-in-out infinite;
+    pointer-events: none;
   }
 
   @keyframes blobFloat {

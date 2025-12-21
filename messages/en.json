@@ -227,10 +227,14 @@
   },
   "notFound": {
     "code": "404 error",
+    "badge": "Page unavailable",
     "title": "Page not found",
-    "description": "Sorry, the page you’re looking for doesn’t exist or may have been moved.",
+    "description": "Sorry, the page you're looking for doesn't exist or may have been moved.",
+    "hint": "You can go back to the homepage or explore our features.",
     "home": "Go back home",
+    "features": "Explore features",
     "contact": "Contact support",
-    "brandNote": "Leana — smart learning, even when you’re lost"
+    "brandNote": "Leana — smart learning, even when you're lost",
+    "footerLine": "Need help? We're here to assist you."
   }
 }
