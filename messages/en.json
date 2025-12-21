@@ -224,5 +224,13 @@
     "pricing": "Pricing",
     "faq": "FAQ",
     "contact": "Contact"
+  },
+  "notFound": {
+    "code": "404 error",
+    "title": "Page not found",
+    "description": "Sorry, the page you’re looking for doesn’t exist or may have been moved.",
+    "home": "Go back home",
+    "contact": "Contact support",
+    "brandNote": "Leana — smart learning, even when you’re lost"
   }
 }

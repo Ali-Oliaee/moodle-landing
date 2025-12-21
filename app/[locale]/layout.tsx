@@ -43,9 +43,10 @@ export default async function LocaleLayout({
   params,
 }: {
   children: React.ReactNode
-  params: Promise<{ locale: Locale }>
+  params: Promise<{ locale: string }>
 }) {
-  const { locale } = await params
+  const resolvedParams = await params
+  const locale = resolvedParams.locale as Locale
   const messages = await getMessages()
   const dir = isRtl(locale) ? "rtl" : "ltr"
 

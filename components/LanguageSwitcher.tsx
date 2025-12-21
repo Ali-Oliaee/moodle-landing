@@ -1,34 +1,28 @@
 "use client"
 
-import { usePathname } from "next/navigation"
-import Link from "next/link"
+import { usePathname, useRouter } from "@/i18n/routing"
 import { useLocale } from "next-intl"
 import { locales, type Locale } from "@/i18n/locales"
 
-function replaceLocale(pathname: string, nextLocale: Locale) {
-  const parts = pathname.split("/")
-  // pathname is like /fa/... or /en/...
-  if (parts.length > 1 && (parts[1] === "fa" || parts[1] === "en")) {
-    parts[1] = nextLocale
-    return parts.join("/") || `/${nextLocale}`
-  }
-  return `/${nextLocale}${pathname.startsWith("/") ? "" : "/"}${pathname}`
-}
-
 export default function LanguageSwitcher() {
+  const router = useRouter()
   const pathname = usePathname()
   const locale = useLocale() as Locale
+
+  const handleLocaleChange = (nextLocale: Locale) => {
+    router.replace(pathname, { locale: nextLocale })
+  }
 
   return (
     <div className="flex items-center gap-2">
       {locales.map((l) => {
         const active = l === locale
         return (
-          <Link
+          <button
             key={l}
-            href={replaceLocale(pathname, l)}
+            onClick={() => handleLocaleChange(l)}
             className={[
-              "rounded-full px-3 py-1 text-sm border transition",
+              "rounded-full px-3 py-1 text-sm border transition cursor-pointer",
               active
                 ? "border-zinc-900 bg-zinc-900 text-white"
                 : "border-zinc-200 hover:border-zinc-300",
@@ -36,7 +30,7 @@ export default function LanguageSwitcher() {
             aria-current={active ? "page" : undefined}
           >
             {l === "fa" ? "FA" : "EN"}
-          </Link>
+          </button>
         )
       })}
     </div>
