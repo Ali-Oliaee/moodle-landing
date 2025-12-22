@@ -40,7 +40,9 @@ export default function Contact() {
         >
           <div className="grid gap-4">
             <div>
-              <label className="text-sm font-medium">{t("contact.form.name")}</label>
+              <label className="text-sm font-medium">
+                {t("contact.form.name")}
+              </label>
               <input
                 required
                 className="mt-2 w-full rounded-2xl border border-zinc-200 px-4 py-3 text-sm"
@@ -49,7 +51,9 @@ export default function Contact() {
             </div>
 
             <div>
-              <label className="text-sm font-medium">{t("contact.form.org")}</label>
+              <label className="text-sm font-medium">
+                {t("contact.form.org")}
+              </label>
               <input
                 className="mt-2 w-full rounded-2xl border border-zinc-200 px-4 py-3 text-sm"
                 placeholder={t("contact.form.orgPh")}
@@ -57,7 +61,9 @@ export default function Contact() {
             </div>
 
             <div>
-              <label className="text-sm font-medium">{t("contact.form.message")}</label>
+              <label className="text-sm font-medium">
+                {t("contact.form.message")}
+              </label>
               <textarea
                 required
                 className="mt-2 w-full rounded-2xl border border-zinc-200 px-4 py-3 text-sm min-h-[120px]"
@@ -67,7 +73,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="rounded-full bg-blue-600 px-5 py-3 text-white text-sm font-medium hover:bg-blue-700 transition"
+              className="rounded-full bg-[#9B2C8C] px-5 py-3 text-white text-sm font-medium hover:bg-[#7F2374] transition"
             >
               {sent ? t("contact.form.sent") : t("contact.form.submit")}
             </button>

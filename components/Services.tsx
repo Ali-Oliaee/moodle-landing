@@ -33,7 +33,7 @@ export default function Services() {
               <ul className="mt-4 space-y-2 text-sm text-zinc-700">
                 {cardData.bullets?.map((bullet: string, i: number) => (
                   <li key={i} className="flex gap-2">
-                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-blue-600" />
+                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#9B2C8C]" />
                     <span>{bullet}</span>
                   </li>
                 ))}

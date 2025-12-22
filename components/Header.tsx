@@ -47,7 +47,7 @@ export default function Header() {
           <div className="flex items-center gap-2">
             <a
               href="#contact"
-              className="inline-flex items-center justify-center rounded-full bg-blue-600 px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-blue-700 transition"
+              className="inline-flex items-center justify-center rounded-full bg-[#9B2C8C] px-4 py-2 text-sm font-medium text-white shadow-sm hover:bg-[#7F2374] transition"
             >
               {t("header.cta")}
             </a>

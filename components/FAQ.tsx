@@ -8,20 +8,28 @@ function Item({ q, a }: { q: string; a: string }) {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="rounded-2xl border border-zinc-100 bg-white">
+    <div className="rounded-2xl border border-zinc-100 bg-white overflow-hidden transition-all duration-300">
       <button
-        className="w-full text-start p-5 flex items-center justify-between gap-4"
+        className="w-full text-start p-5 flex items-center justify-between gap-4 cursor-pointer hover:bg-zinc-50 transition-colors"
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
       >
         <span className="text-sm font-semibold">{q}</span>
-        <span className="text-zinc-500">{open ? "−" : "+"}</span>
+        <span className="text-zinc-500 transition-transform duration-300" style={{ transform: open ? 'rotate(45deg)' : 'rotate(0deg)' }}>
+          +
+        </span>
       </button>
-      {open ? (
+      <div
+        className="transition-all duration-300 ease-in-out"
+        style={{
+          maxHeight: open ? '500px' : '0px',
+          opacity: open ? 1 : 0,
+        }}
+      >
         <div className="px-5 pb-5 text-sm text-zinc-600 leading-relaxed">
           {a}
         </div>
-      ) : null}
+      </div>
     </div>
   )
 }

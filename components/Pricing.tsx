@@ -42,15 +42,13 @@ export default function Pricing() {
 
               <div className="mt-6">
                 <p className="text-3xl font-semibold">{planData.price}</p>
-                <p className="mt-1 text-xs text-zinc-600">
-                  {planData.period}
-                </p>
+                <p className="mt-1 text-xs text-zinc-600">{planData.period}</p>
               </div>
 
               <ul className="mt-6 space-y-2 text-sm text-zinc-700">
                 {planData.features?.map((feature: string, i: number) => (
                   <li key={i} className="flex gap-2">
-                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-blue-600" />
+                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-[#9B2C8C]" />
                     <span>{feature}</span>
                   </li>
                 ))}

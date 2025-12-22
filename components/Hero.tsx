@@ -121,7 +121,7 @@ export default function Hero() {
                       {t("hero.preview.desc")}
                     </p>
                   </div>
-                  <span className="rounded-full bg-blue-600/10 text-blue-700 border border-blue-100 px-3 py-1 text-xs font-medium">
+                  <span className="rounded-full bg-[#9B2C8C]/10 text-[#9B2C8C] border border-[#9B2C8C]/20 px-3 py-1 text-xs font-medium">
                     {t("hero.preview.pill")}
                   </span>
                 </div>
@@ -176,7 +176,7 @@ export default function Hero() {
                   </a>
                   <a
                     href="#contact"
-                    className="flex-1 rounded-full bg-blue-600 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-700 transition shadow-sm"
+                    className="flex-1 rounded-full bg-[#9B2C8C] px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-[#7F2374] transition shadow-sm"
                   >
                     {t("hero.preview.ctaPrimary")}
                   </a>

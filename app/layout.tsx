@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   },
   description:
     "سیستم مدیریت یادگیری مدرن برای مدارس و آموزشگاه‌ها: مدیران، معلمان، دانش‌آموزان و والدین — با گیمیفیکیشن و امکانات هوش مصنوعی.",
+  icons: {
+    icon: "/logo-icon.png",
+    shortcut: "/logo-icon.png",
+    apple: "/logo-icon.png",
+  },
   openGraph: {
     type: "website",
     url: siteUrl,
