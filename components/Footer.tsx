@@ -1,5 +1,6 @@
 import Image from "next/image"
 import { t } from "@/lib/translations"
+import { withBasePath } from "@/lib/paths"
 
 export default function Footer() {
   return (
@@ -8,7 +9,7 @@ export default function Footer() {
         <div className="flex items-center gap-3 px-4">
           <div className="relative h-12 w-32 ">
             <Image
-              src="/leana-logo.png"
+              src={withBasePath("/leana-logo.png")}
               alt="Logo"
               fill
               className="object-contain"

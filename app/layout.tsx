@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
+import { withBasePath } from "@/lib/paths"
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://example.com"
 
@@ -12,9 +13,9 @@ export const metadata: Metadata = {
   description:
     "سیستم مدیریت یادگیری مدرن برای مدارس و آموزشگاه‌ها: مدیران، معلمان، دانش‌آموزان و والدین — با گیمیفیکیشن و امکانات هوش مصنوعی.",
   icons: {
-    icon: "/logo-icon.png",
-    shortcut: "/logo-icon.png",
-    apple: "/logo-icon.png",
+    icon: withBasePath("/logo-icon.png"),
+    shortcut: withBasePath("/logo-icon.png"),
+    apple: withBasePath("/logo-icon.png"),
   },
   openGraph: {
     type: "website",

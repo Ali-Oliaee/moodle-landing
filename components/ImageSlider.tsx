@@ -2,16 +2,17 @@
 
 import { useState, useEffect } from "react"
 import Image from "next/image"
+import { withBasePath } from "@/lib/paths"
 
 const SLIDES = [
   {
     id: 1,
-    image: "/banner1.png",
+    image: withBasePath("/banner1.png"),
     alt: "نسل جدید یادگیری - سامانه جامع مدیریت و اجرای آموزش",
   },
   {
     id: 2,
-    image: "/banner2.png",
+    image: withBasePath("/banner2.png"),
     alt: "تجربه آموزش و یادگیری بهتر - لینا بورد",
   },
 ]

@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Container from "./Container"
 import { t } from "@/lib/translations"
+import { withBasePath } from "@/lib/paths"
 
 export default function Header() {
   return (
@@ -12,7 +13,7 @@ export default function Header() {
           <a href="#top" className="flex items-center gap-3">
             <div className="relative h-12 w-32 ">
               <Image
-                src="/leana-logo.png"
+                src={withBasePath("/leana-logo.png")}
                 alt="Logo"
                 fill
                 className="object-contain"
