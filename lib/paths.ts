@@ -1,4 +1,8 @@
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ""
+const rawBasePath =
+  process.env.__NEXT_ROUTER_BASEPATH ??
+  process.env.NEXT_PUBLIC_BASE_PATH ??
+  ""
+const basePath = rawBasePath === "/" ? "" : rawBasePath
 
 export const withBasePath = (path: string) => {
   if (!basePath) return path
