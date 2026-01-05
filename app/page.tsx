@@ -1,5 +1,4 @@
 import Header from "@/components/Header"
-import ImageSlider from "@/components/ImageSlider"
 import Hero from "@/components/Hero"
 import Services from "@/components/Services"
 import Pricing from "@/components/Pricing"
@@ -12,7 +11,7 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Header />
-      <ImageSlider />
+      {/* <ImageSlider /> */}
       <main>
         <Hero />
         <Services />
